@@ -16,11 +16,109 @@
 			background-repeat: no-repeat;
 			background-attachment: fixed;
 			background-size: cover;
-		}	
+		}
+
+		/*Fejlécek beállítása*/
+			h1,h2,h3,h4,h5,h6 {
+				color: #ffff00;
+				font-weight: bold;
+				text-size: 120%;
+				font-family: tahoma;
+			}
+			
+			h1 {
+				text-align: center;
+			}
+			
+		/*Szöveg beállítása*/
+			p {
+				color: #ffff00;
+				font-family: tahoma;
+			}
+			
+		/*Az egész táblázat formázása*/
+			
+			tr,td,th {
+				text-align: center;
+				vertical-align: middle;
+				font-size:100%;
+				color: #ffff00;
+				font-family: tahoma;
+			}
+				/*Táblázat formázás*/
+				table {
+					float: left;
+					width: 80%;
+					margin: auto;
+					background-color: rgba(120,00,255,0.7);
+					border-radius: 30px;
+					border-collapse: collapse;
+					
+				}
+				/*Szegélyek beállítása*/
+				td {
+					border-left: 1px solid black;
+					border-bottom: 1px solid black;
+					border-right:none;
+					padding-bottom:5px;
+				}
+				
+				tr:last-child td {
+					border-bottom:none;
+				}
+				
+				td:last-child {
+					padding-left: 8px;
+				}
 	
 	</style>
 
 	<body>
+		<h1>
+			NAP - naprendszer közepe
+		</h1>
+		
+		<table style="
+			float:left;
+			margin-right:20px;
+			width:50%">
+			<tr>
+				<td rowspan="5" style="width:33%;border-bottom:0px solid black;border-right:4px solid black">
+					<img src="../Image/Planets/sun.png" style="width:150px;height:auto;">
+				</td>
+				<td>Egyenlítői sugár</td>
+				<td style="text-align:right">6,96 x 10<sup>5</sup></td>
+				<td style="text-align:left;border-right:none">km</td>
+			</tr>
+			
+			<tr>
+				<td>Térfogat</td>
+				<td style="text-align:right">1,412 x 10<sup>18</sup></td>
+				<td style="text-align:left;border-right:none">km<sup>3</sup></td>
+			</tr>
+			
+			<tr>
+				<td>Tömeg</td>
+				<td style="text-align:right">1,989 x 10<sup>30</sup></td>
+				<td style="text-align:left;border-right:none">kg</td>
+			</tr>
+			
+			<tr>
+				<td>Sűrűség</td>
+				<td style="text-align:right">1,408</td>
+				<td style="text-align:left;border-right:none">g/cm<sup>3</sup></td>
+			</tr>
+			
+			<tr>
+				<td>Mag hőmérséklete</td>
+				<td style="text-align:right">15,7 x 10<sup>6</sup></td>
+				<td style="text-align:left;border-right:none">K</td>
+			</tr>
+			
+
+			
+			
+		</table>
 	
 	</body>
 
