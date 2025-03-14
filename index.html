@@ -1,537 +1,574 @@
 <!DOCTYPE html>
 <html lang="hu">
-	<head>
-		<title>Naprendszer</title>
-		<meta name="description" content="hu:Ez az oldal a naprendszerrel kapcsolatos információkat tartalmazza. 
-			                          en:This page is contains information about our solar system.">
-		<meta name="keywords" content="solar,solarsystem,nap,naprendszer,sun,mercury,venus,earth,mars,jupiter,saturn,uranus,neptune,pluto,merkúr,vénusz,föld,mars,jupiter,szaturnusz,uránusz,neptunusz,plútó,red123741">
-		<link rel="icon" type="image/png" href="Image/icon.png">
-		<style>
-			/*Változók deklarálása*/
-			
-			/*Háttér beállítása*/
-			body {
-				background-image: url('Image/background.jpg');
-				background-repeat: no-repeat;
-				background-attachment: fixed;
-				background-size: cover;
-			}
-			
-			/*Fejlécek beállítása*/
-			h1,h2,h3,h4,h5,h6 {
-				color: #ffff00;
-				font-weight: bold;
-				text-align: center;
-				font-family: tahoma;
-			}
-			
-			h2 {
-				text-align: left;
-			}
-			
-			/*Az egész táblázat formázása*/
-			
-			tr,td,th {
-				text-align: center;
-				vertical-align: middle;
-				font-size:120%;
-				color: #ffff00;
-				font-family: tahoma;
-			}
-				/*Táblázat formázás*/
-				table {
-					width: 80%;
-					margin: auto;
-					background-color: rgba(120,00,255,0.7);
-					border-radius: 30px;
-					border-collapse: collapse;
-					
-				}
-				/*Szegélyek beállítása*/
-				th:first-child, td:first-child{
-					width:50px;
-					border-right: 5px solid black;
-					border-left: 0px solid black;
-					padding: 0px 30px;
-				}
-				tr:first-child th{
-					padding: 5px;
-					border-top:0px solid black;
-					border-bottom:5px solid black;
-				}
-				
-				td:nth-child(2){
-					font-weight: bold;
-				}
-				
-				td {
-					border-left: 1px solid black;
-					border-top: 1px solid black;
-				}
-				
-				th {
-					/*width:30%;*/
-					border-bottom: 5px solid black;
-					border-right: 1px solid black;
-				}
-				
-				th:last-child{
-					border-right: 0px solid black;
-				}
-				
-				tr:last-child td{
-					padding: 10px;
-				}
-				
-				
-				
-				
-			
-			/*Képek formázása*/
-			.planet-img {
-				width:50px;
-				height:auto;
-			}
-			
-			
-		</style>
-	</head>
-	
-	<body>
-		<h1 
-			style=
-				"text-transform: uppercase">
-			Üdvözöllek a naprendszer bemutatóban
-		</h1>
-		
-		<table>
-			<caption>
-			</caption>
-			
-			<tr>
-				<!-- Értékek -->
-				<th>
-					Értékek
-				</th>
-				<!-- Név -->
-				<th>
-					Név
-				</th>
-				<!-- Föld tömeg -->
-				<th>
-					Föld tömeg
-				</th>
-				<!-- Felszíni gravitáció -->
-				<th>
-					Felszíni gravitáció
-				</th>
-				<!-- Távolság a naptól -->
-				<th>
-					Távolság a naptól
-				</th>
-				<!-- Keringési ideje -->
-				<th>
-					Keringési ideje
-				</th>
-				<!-- Tengely forgás ideje -->
-				<th>
-					Tengely forgás ideje
-				</th>					
-			</tr>
-			
-			<tr>
-				<!-- Nap -->
-				<td>
-					<a href="Pages/Sun.html">
-						<img 
-							src="Image/Planets/sun.png"
-							alt="sun.png";
-							class="planet-img">
-					</a>
-					
-				</td>
-				<!-- Név -->
-				<td>
-					Nap
-				</td>
-				<!-- Föld tömeg -->
-				<td>
-					332950 Föld
-				</td>
-				<!-- Felszíni gravitáció -->
-				<td>
-					<span title="274 m/s^2">27,9 G</span>
-				</td>
-				<!-- Távolság a naptól -->
-				<td>
-					<i>nem értelmezett</i>
-				</td>
-				<!-- Keringési ideje -->
-				<td>
-					<i>nem értelmezett</i>
-				</td>
-				<!-- Tengely forgás ideje -->
-				<td>
-					24,47 nap
-				</td>					
-			</tr>
-			
-			<tr>
-				<!-- Merkúr -->
-				<td>
-					<a href="Pages/Mercury.html">
-						<img 
-							src="Image/Planets/mercury.png"
-							alt="mercury.png";
-							class="planet-img">
-					</a>		
-				</td>
-				<!-- Név -->
-				<td>
-					Merkúr
-				</td>
-				<!-- Föld tömeg -->
-				<td>
-					0,055 Föld
-				</td>
-				<!-- Felszíni gravitáció -->
-				<td>
-					<span title="3,7 m/s^2">0,38 G</span>
-				</td>
-				<!-- Távolság a naptól -->
-				<td>
-					0,387 CSE
-				</td>
-				<!-- Keringési ideje -->
-				<td>
-					<span title="0,24 év">87,97 nap</span>
-				</td>
-				<!-- Tengely forgás ideje -->
-				<td>
-					58,65 nap
-				</td>					
-			</tr>
-			
-			<tr>
-				<!-- Vénusz -->
-				<td>
-					<a href="Pages/Venus.html">
-						<img 
-							src="Image/Planets/venus.png"
-							alt="venus.png";
-							class="planet-img">
-					</a>		
-				</td>
-				<!-- Név -->
-				<td>
-					Vénusz
-				</td>
-				<!-- Föld tömeg -->
-				<td>
-					0,815 Föld
-				</td>
-				<!-- Felszíni gravitáció -->
-				<td>
-					<span title="8,87 m/s^2">0,904 G</span>
-				</td>
-				<!-- Távolság a naptól -->
-				<td>
-					0,718 CSE 
-				</td>
-				<!-- Keringési ideje -->
-				<td>
-					<span title="0,615 év">224,7 nap</span>
-				</td>
-				<!-- Tengely forgás ideje -->
-				<td>
-					<span title="ellentétes irányú">-243,0 nap</span>
-				</td>					
-			</tr>
-			
-			<tr style="border-top: 2px solid black; border-bottom: 2px solid black;">
-				<!-- Föld -->
-				<td>
-					<a href="Pages/Earth.html">
-						<img 
-							src="Image/Planets/earth.png"
-							alt="earth.png";
-							class="planet-img">
-					</a>
-				</td>
-				<!-- Név -->
-				<td>
-					Föld
-				</td>
-				<!-- Föld tömeg -->
-				<td>
-					1,000 Föld
-				</td>
-				<!-- Felszíni gravitáció -->
-				<td>
-					<span title="9,8 m/s^2">1,000 G</span>
-				</td>
-				<!-- Távolság a naptól -->
-				<td>
-					 1,000 CSE
-				</td>
-				<!-- Keringési ideje -->
-				<td>
-					<span title="1 év">365,25 nap</span>
-				</td>
-				<!-- Tengely forgás ideje -->
-				<td>
-					0,997 nap
-				</td>					
-			</tr>
-			
-			<tr>
-				<!-- Mars -->
-				<td>
-					<a href="Pages/Mars.html">
-						<img 
-							src="Image/Planets/mars.png"
-							alt="mars.png";
-							class="planet-img">
-					</a>		
-				</td>
-				<!-- Név -->
-				<td>
-					Mars
-				</td>
-				<!-- Föld tömeg -->
-				<td>
-					0,107 Föld
-				</td>
-				<!-- Felszíni gravitáció -->
-				<td>
-					<span title="3,72 m/s^2">0,379 G</span>
-				</td>
-				<!-- Távolság a naptól -->
-				<td>
-					 1,524 CSE
-				</td>
-				<!-- Keringési ideje -->
-				<td>
-					<span title="1,88 év">686,98 nap</span>
-				</td>
-				<!-- Tengely forgás ideje -->
-				<td>
-					1,026 nap
-				</td>					
-			</tr>
-			
-			<tr>
-				<!-- Jupiter -->
-				<td>
-					<a href="Pages/Jupiter.html">
-						<img 
-							src="Image/Planets/jupiter.png"
-							alt="jupiter.png";
-							class="planet-img">
-					</a>		
-				</td>
-				<!-- Név -->
-				<td>
-					Jupiter
-				</td>
-				<!-- Föld tömeg -->
-				<td>
-					317,8 Föld
-				</td>
-				<!-- Felszíni gravitáció -->
-				<td>
-					<span title="24,79 m/s^2">2,528 G</span>
-				</td>
-				<!-- Távolság a naptól -->
-				<td>
-					5,204 CSE
-				</td>
-				<!-- Keringési ideje -->
-				<td>
-					<span title="11,86 év">4332,6 nap</span>
-				</td>
-				<!-- Tengely forgás ideje -->
-				<td>
-					0,413 nap
-				</td>					
-			</tr>
-			
-			<tr>
-				<!-- Szaturnusz -->
-				<td>
-					<a href="Pages/Saturn.html">
-						<img 
-							src="Image/Planets/saturn.png"
-							alt="saturn.png";
-							class="planet-img">
-					</a>		
-				</td>
-				<!-- Név -->
-				<td>
-					Szaturnusz
-				</td>
-				<!-- Föld tömeg -->
-				<td>
-					95,16 Föld
-				</td>
-				<!-- Felszíni gravitáció -->
-				<td>
-					<span title="10,44 m/s^2">1,065 G</span>
-				</td>
-				<!-- Távolság a naptól -->
-				<td>
-					9,583 CSE
-				</td>
-				<!-- Keringési ideje -->
-				<td>
-					<span title="29,45 év">10755,7 nap</span>
-				</td>
-				<!-- Tengely forgás ideje -->
-				<td>
-					0,440 nap
-				</td>					
-			</tr>
-			
-			<tr>
-				<!-- Uránusz -->
-				<td>
-					<a href="Pages/Uranus.html">
-						<img 
-							src="Image/Planets/uranus.png"
-							alt="uranus.png";
-							class="planet-img">
-					</a>		
-				</td>
-				<!-- Név -->
-				<td>
-					Uránusz
-				</td>
-				<!-- Föld tömeg -->
-				<td>
-					14,54 Föld
-				</td>
-				<!-- Felszíni gravitáció -->
-				<td>
-					<span title="8,69 m/s^2">0,886 G</span>
-				</td>
-				<!-- Távolság a naptól -->
-				<td>
-					19,19 CSE
-				</td>
-				<!-- Keringési ideje -->
-				<td>
-					<span title="84,02 év">30688,5 nap</span>
-				</td>
-				<!-- Tengely forgás ideje -->
-				<td>
-					<span title="ellentétes irányú">-0,718 nap</span>
-				</td>					
-			</tr>
-			
-			<tr>
-				<!-- Neptunusz -->
-				<td>
-					<a href="Pages/Neptune.html">
-						<img 
-							src="Image/Planets/neptune.png"
-							alt="neptune.png";
-							class="planet-img">
-					</a>		
-				</td>
-				<!-- Név -->
-				<td>
-					Neptunusz
-				</td>
-				<!-- Föld tömeg -->
-				<td>
-					17,15 Föld
-				</td>
-				<!-- Felszíni gravitáció -->
-				<td>
-					<span title="11,15 m/s^2">1,137 G</span>
-				</td>
-				<!-- Távolság a naptól -->
-				<td>
-					30,07 CSE
-				</td>
-				<!-- Keringési ideje -->
-				<td>
-					<span title="1,007 év">367,49 nap</span>
-				</td>
-				<!-- Tengely forgás ideje -->
-				<td>
-					0,671 nap
-				</td>					
-			</tr>
-			
-			<tr>
-				<!-- Plútó -->
-				<td>
-					<a href="Pages/Pluto.html">
-						<img 
-							src="Image/Planets/pluto.png"
-							alt="pluto.png";
-							class="planet-img">
-					</a>		
-				</td>
-				<!-- Név -->
-				<td>
-					Plútó
-				</td>
-				<!-- Föld tömeg -->
-				<td>
-					0,0022 Föld
-				</td>
-				<!-- Felszíni gravitáció -->
-				<td>
-					<span title="0,62 m/s^2"> 0,06 G</span>
-				</td>
-				<!-- Távolság a naptól -->
-				<td>
-					39,48 CSE
-				</td>
-				<!-- Keringési ideje -->
-				<td>
-					<span title="247,94 év">90560 nap</span>
-				</td>
-				<!-- Tengely forgás ideje -->
-				<td>
-					<span title="ellentétes irányú">-6,387 nap</span>
-				</td>					
-			</tr>
-		</table>
-		<h2>
-			Nap
-		</h2>
-		<h2>
-			Merkúr
-		</h2>
-	        <h2>
-	         	Vénusz
-		</h2>
-		<h2>
-			Föld
-		</h2>
-		<h2>
-			Mars
-		</h2>
-		<h2>
-			Jupiter
-		</h2>
-		<h2>
-			Szaturnusz
-		</h2>
-		<h2>
-			Uránusz
-		</h2>
-		<h2>
-			Neptunusz
-		</h2>
-		<h2>
-			Plútó
-		</h2>
-			
-			
-		
-	</body>
+  <head>
+    <title>Naprendszer</title>
+    <meta 
+      name="description" 
+      content="hu:Ez az oldal a naprendszerrel kapcsolatos információkat tartalmazza. en:This page is contains information about our solar system.">
+    <meta 
+      name="keywords"
+      content="
+        solar,
+        solarsystem,
+        nap,
+        naprendszer,
+        sun,
+        mercury,
+        venus,
+        earth,
+        mars,
+        jupiter,
+        saturn,
+        uranus,
+        neptune,
+        pluto,
+        merkúr,
+        vénusz,
+        föld,
+        mars,
+        jupiter,
+        szaturnusz,
+        uránusz,
+        neptunusz,
+        plútó,
+        red123741">
+    <link
+      rel="icon" 
+      type="image/png" 
+      href="Image/icon.png">
+    <style>
+      /*Változók deklarálása*/
+      
+      /*Háttér beállítása*/
+      body {
+        background-image: url('Image/background.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+      
+      /*Fejlécek beállítása*/
+      h1,h2,h3,h4,h5,h6 {
+        color: #ffff00;
+        font-weight: bold;
+        text-align: center;
+        font-family: tahoma;
+      }
+      
+      h2 {
+        text-align: left;
+      }
+      
+      /*Az egész táblázat formázása*/
+      
+      tr,td,th {
+        text-align: center;
+        vertical-align: middle;
+        font-size:120%;
+        color: #ffff00;
+        font-family: tahoma;
+      }
+        /*Táblázat formázás*/
+        table {
+          width: 80%;
+          margin: auto;
+          background-color: rgba(120,00,255,0.7);
+          border-radius: 30px;
+          border-collapse: collapse;
+          
+        }
+        /*Szegélyek beállítása*/
+        th:first-child, td:first-child{
+          width:50px;
+          border-right: 5px solid black;
+          border-left: 0px solid black;
+          padding: 0px 30px;
+        }
+        tr:first-child th{
+          padding: 5px;
+          border-top:0px solid black;
+          border-bottom:5px solid black;
+        }
+        
+        td:nth-child(2){
+          font-weight: bold;
+        }
+        
+        td {
+          border-left: 1px solid black;
+          border-top: 1px solid black;
+        }
+        
+        th {
+          /*width:30%;*/
+          border-bottom: 5px solid black;
+          border-right: 1px solid black;
+        }
+        
+        th:last-child{
+          border-right: 0px solid black;
+        }
+        
+        tr:last-child td{
+          padding: 10px;
+        }
+        
+        
+        
+        
+      
+      /*Képek formázása*/
+      .planet-img {
+        width:50px;
+        height:auto;
+      }
+      
+      
+    </style>
+  </head>
+  
+  <body>
+    <h1 
+      style="
+        text-transform: uppercase">
+      Üdvözöllek a naprendszer bemutatóban
+    </h1>
+    
+    <table>
+      <caption>
+      </caption>
+      
+      <tr>
+        <!-- Értékek -->
+        <th>
+          Értékek
+        </th>
+        <!-- Név -->
+        <th>
+          Név
+        </th>
+        <!-- Föld tömeg -->
+        <th>
+          Föld tömeg
+        </th>
+        <!-- Felszíni gravitáció -->
+        <th>
+          Felszíni gravitáció
+        </th>
+        <!-- Távolság a naptól -->
+        <th>
+          Távolság a naptól
+        </th>
+        <!-- Keringési ideje -->
+        <th>
+          Keringési ideje
+        </th>
+        <!-- Tengely forgás ideje -->
+        <th>
+          Tengely forgás ideje
+        </th>          
+      </tr>
+      
+      <tr>
+        <!-- Nap -->
+        <td>
+          <a
+            href="Pages/Sun.html">
+            <img 
+              src="Image/Planets/sun.png"
+              alt="sun.png";
+              class="planet-img">
+          </a>
+          
+        </td>
+        <!-- Név -->
+        <td>
+          Nap
+        </td>
+        <!-- Föld tömeg -->
+        <td>
+          332950 Föld
+        </td>
+        <!-- Felszíni gravitáció -->
+        <td>
+          <span title="274 m/s^2">27,9 G</span>
+        </td>
+        <!-- Távolság a naptól -->
+        <td>
+          <i>nem értelmezett</i>
+        </td>
+        <!-- Keringési ideje -->
+        <td>
+          <i>nem értelmezett</i>
+        </td>
+        <!-- Tengely forgás ideje -->
+        <td>
+          24,47 nap
+        </td>          
+      </tr>
+      
+      <tr>
+        <!-- Merkúr -->
+        <td>
+          <a 
+            href="Pages/Mercury.html">
+            <img 
+              src="Image/Planets/mercury.png"
+              alt="mercury.png";
+              class="planet-img">
+          </a>    
+        </td>
+        <!-- Név -->
+        <td>
+          Merkúr
+        </td>
+        <!-- Föld tömeg -->
+        <td>
+          0,055 Föld
+        </td>
+        <!-- Felszíni gravitáció -->
+        <td>
+          <span title="3,7 m/s^2">0,38 G</span>
+        </td>
+        <!-- Távolság a naptól -->
+        <td>
+          0,387 CSE
+        </td>
+        <!-- Keringési ideje -->
+        <td>
+          <span title="0,24 év">87,97 nap</span>
+        </td>
+        <!-- Tengely forgás ideje -->
+        <td>
+          58,65 nap
+        </td>          
+      </tr>
+      
+      <tr>
+        <!-- Vénusz -->
+        <td>
+            <a 
+            href="Pages/Venus.html">
+            <img 
+              src="Image/Planets/venus.png"
+              alt="venus.png";
+              class="planet-img">
+          </a>    
+        </td>
+        <!-- Név -->
+        <td>
+          Vénusz
+        </td>
+        <!-- Föld tömeg -->
+        <td>
+          0,815 Föld
+        </td>
+        <!-- Felszíni gravitáció -->
+        <td>
+          <span title="8,87 m/s^2">0,904 G</span>
+        </td>
+        <!-- Távolság a naptól -->
+        <td>
+          0,718 CSE 
+        </td>
+        <!-- Keringési ideje -->
+        <td>
+          <span title="0,615 év">224,7 nap</span>
+        </td>
+        <!-- Tengely forgás ideje -->
+        <td>
+          <span title="ellentétes irányú">-243,0 nap</span>
+        </td>          
+      </tr>
+      
+      <tr style="border-top: 2px solid black; border-bottom: 2px solid black;">
+        <!-- Föld -->
+        <td>
+            <a 
+            href="Pages/Earth.html">
+            <img 
+              src="Image/Planets/earth.png"
+              alt="earth.png";
+              class="planet-img">
+          </a>
+        </td>
+        <!-- Név -->
+        <td>
+          Föld
+        </td>
+        <!-- Föld tömeg -->
+        <td>
+          1,000 Föld
+        </td>
+        <!-- Felszíni gravitáció -->
+        <td>
+          <span title="9,8 m/s^2">1,000 G</span>
+        </td>
+        <!-- Távolság a naptól -->
+        <td>
+           1,000 CSE
+        </td>
+        <!-- Keringési ideje -->
+        <td>
+          <span title="1 év">365,25 nap</span>
+        </td>
+        <!-- Tengely forgás ideje -->
+        <td>
+          0,997 nap
+        </td>          
+      </tr>
+      
+      <tr>
+        <!-- Mars -->
+        <td>
+            <a 
+            href="Pages/Mars.html">
+            <img 
+              src="Image/Planets/mars.png"
+              alt="mars.png";
+              class="planet-img">
+          </a>    
+        </td>
+        <!-- Név -->
+        <td>
+          Mars
+        </td>
+        <!-- Föld tömeg -->
+        <td>
+          0,107 Föld
+        </td>
+        <!-- Felszíni gravitáció -->
+        <td>
+          <span title="3,72 m/s^2">0,379 G</span>
+        </td>
+        <!-- Távolság a naptól -->
+        <td>
+           1,524 CSE
+        </td>
+        <!-- Keringési ideje -->
+        <td>
+          <span title="1,88 év">686,98 nap</span>
+        </td>
+        <!-- Tengely forgás ideje -->
+        <td>
+          1,026 nap
+        </td>          
+      </tr>
+      
+      <tr>
+        <!-- Jupiter -->
+        <td>
+            <a 
+            href="Pages/Jupiter.html">
+            <img 
+              src="Image/Planets/jupiter.png"
+              alt="jupiter.png";
+              class="planet-img">
+          </a>    
+        </td>
+        <!-- Név -->
+        <td>
+          Jupiter
+        </td>
+        <!-- Föld tömeg -->
+        <td>
+          317,8 Föld
+        </td>
+        <!-- Felszíni gravitáció -->
+        <td>
+          <span title="24,79 m/s^2">2,528 G</span>
+        </td>
+        <!-- Távolság a naptól -->
+        <td>
+          5,204 CSE
+        </td>
+        <!-- Keringési ideje -->
+        <td>
+          <span title="11,86 év">4332,6 nap</span>
+        </td>
+        <!-- Tengely forgás ideje -->
+        <td>
+          0,413 nap
+        </td>          
+      </tr>
+      
+      <tr>
+        <!-- Szaturnusz -->
+        <td>
+            <a 
+            href="Pages/Saturn.html">
+            <img 
+              src="Image/Planets/saturn.png"
+              alt="saturn.png";
+              class="planet-img">
+          </a>    
+        </td>
+        <!-- Név -->
+        <td>
+          Szaturnusz
+        </td>
+        <!-- Föld tömeg -->
+        <td>
+          95,16 Föld
+        </td>
+        <!-- Felszíni gravitáció -->
+        <td>
+          <span title="10,44 m/s^2">1,065 G</span>
+        </td>
+        <!-- Távolság a naptól -->
+        <td>
+          9,583 CSE
+        </td>
+        <!-- Keringési ideje -->
+        <td>
+          <span title="29,45 év">10755,7 nap</span>
+        </td>
+        <!-- Tengely forgás ideje -->
+        <td>
+          0,440 nap
+        </td>          
+      </tr>
+      
+      <tr>
+        <!-- Uránusz -->
+        <td>
+            <a 
+            href="Pages/Uranus.html">
+            <img 
+              src="Image/Planets/uranus.png"
+              alt="uranus.png";
+              class="planet-img">
+          </a>    
+        </td>
+        <!-- Név -->
+        <td>
+          Uránusz
+        </td>
+        <!-- Föld tömeg -->
+        <td>
+          14,54 Föld
+        </td>
+        <!-- Felszíni gravitáció -->
+        <td>
+          <span title="8,69 m/s^2">0,886 G</span>
+        </td>
+        <!-- Távolság a naptól -->
+        <td>
+          19,19 CSE
+        </td>
+        <!-- Keringési ideje -->
+        <td>
+          <span title="84,02 év">30688,5 nap</span>
+        </td>
+        <!-- Tengely forgás ideje -->
+        <td>
+          <span title="ellentétes irányú">-0,718 nap</span>
+        </td>          
+      </tr>
+      
+      <tr>
+        <!-- Neptunusz -->
+        <td>
+            <a 
+            href="Pages/Neptune.html">
+            <img 
+              src="Image/Planets/neptune.png"
+              alt="neptune.png";
+              class="planet-img">
+          </a>    
+        </td>
+        <!-- Név -->
+        <td>
+          Neptunusz
+        </td>
+        <!-- Föld tömeg -->
+        <td>
+          17,15 Föld
+        </td>
+        <!-- Felszíni gravitáció -->
+        <td>
+          <span title="11,15 m/s^2">1,137 G</span>
+        </td>
+        <!-- Távolság a naptól -->
+        <td>
+          30,07 CSE
+        </td>
+        <!-- Keringési ideje -->
+        <td>
+          <span title="1,007 év">367,49 nap</span>
+        </td>
+        <!-- Tengely forgás ideje -->
+        <td>
+          0,671 nap
+        </td>          
+      </tr>
+      
+      <tr>
+        <!-- Plútó -->
+        <td>
+            <a 
+            href="Pages/Pluto.html">
+            <img 
+              src="Image/Planets/pluto.png"
+              alt="pluto.png";
+              class="planet-img">
+          </a>    
+        </td>
+        <!-- Név -->
+        <td>
+          Plútó
+        </td>
+        <!-- Föld tömeg -->
+        <td>
+          0,0022 Föld
+        </td>
+        <!-- Felszíni gravitáció -->
+        <td>
+          <span title="0,62 m/s^2"> 0,06 G</span>
+        </td>
+        <!-- Távolság a naptól -->
+        <td>
+          39,48 CSE
+        </td>
+        <!-- Keringési ideje -->
+        <td>
+          <span title="247,94 év">90560 nap</span>
+        </td>
+        <!-- Tengely forgás ideje -->
+        <td>
+          <span title="ellentétes irányú">-6,387 nap</span>
+        </td>          
+      </tr>
+    </table>
+    <h2>
+      Nap
+    </h2>
+    <h2>
+      Merkúr
+    </h2>
+          <h2>
+             Vénusz
+    </h2>
+    <h2>
+      Föld
+    </h2>
+    <h2>
+      Mars
+    </h2>
+    <h2>
+      Jupiter
+    </h2>
+    <h2>
+      Szaturnusz
+    </h2>
+    <h2>
+      Uránusz
+    </h2>
+    <h2>
+      Neptunusz
+    </h2>
+    <h2>
+      Plútó
+    </h2>
+  </body>
 </html>
